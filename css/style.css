@@ -74,10 +74,6 @@ button {
   padding: 20px 0 28px;
 }
 
-.registration-list {
-  display: flex;
-}
-
 .registration-btn {
   width: 94px;
   height: 40px;
@@ -273,7 +269,7 @@ button {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1439px) {
+@media (min-width: 768px) and (max-width: 991px) {
   /* ------HEADER----- */
   .promo {
     background-image: url(../img/bg-img/promo-pic-768x700.png);
@@ -301,7 +297,7 @@ button {
 
 /* ------DESKTOP------ */
 
-@media (min-width: 1440px) {
+@media (min-width: 992px) {
   /* ------HEADER----- */
   .promo {
     background-image: url(../img/bg-img/promo-pic-1440x700.png);
@@ -321,7 +317,7 @@ button {
   /* -----PARTNERS----- */
 
   .partner-list {
-    justify-content: space-between;
+    width: 960px;
   }
 
   .btn-more-partners {
