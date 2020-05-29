@@ -298,11 +298,6 @@ button {
     background-image: url(../img/bg-img/promo-pic-1440x700.png);
   }
 
-  .registration {
-    margin: 0 auto;
-    /* width: 942px; */
-  }
-
   .registration-btn:hover {
     border: 2px solid #ffffff;
     border-radius: 20px;
@@ -310,10 +305,6 @@ button {
   }
 
   /* -----PARTNERS----- */
-
-  .partner-list {
-    width: 960px;
-  }
 
   .btn-more-partners {
     margin-bottom: 72px;
