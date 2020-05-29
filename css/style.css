@@ -241,8 +241,9 @@ button {
   }
 
   .promo-title {
+    max-width: 620px;
     font-size: 52px;
-    margin-bottom: 26px;
+    margin: 0 auto 26px;
   }
 
   .promo-description {
@@ -309,5 +310,11 @@ button {
   .btn-more-partners {
     margin-bottom: 72px;
     cursor: pointer;
+  }
+}
+
+@media (min-width: 1440px) {
+  .wrapper-promo-info {
+    min-width: 300px;
   }
 }
